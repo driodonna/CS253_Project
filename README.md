@@ -7,4 +7,5 @@ Moreover, the linker may encounter errors on finding some of the functions used.
 The following are the commands to run the programs:
 
 symmetric encryption: gcc symmetric_cbc.c -lssl -lcrypto -ldl | gcc symmetric_ecb.c -lssl -lcrypto -ldl
+
 hashing: gcc sha_256.c -lssl -lcrypto | gcc sha_512.c -lssl -lcrypto | gcc sha_1.c -lssl -lcrypto
